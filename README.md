@@ -91,17 +91,18 @@ The file `weather_server_sample.service` can be used as a base for systemd insta
 
 Downloaded data is automatically cached to prevent unnecessary load on the DWD servers. Station-ID lists are cached for 1 day, and weather forecast data ist cached for 1 hour before the next download is initiated.
 
-## References
-
-* The [DWD Open Data](https://www.dwd.de/EN/ourservices/opendata/opendata.html) project.
-* [A list of all weather stations supported by DWD](https://www.dwd.de/DE/leistungen/klimadatendeutschland/statliste/statlex_html.html?view=nasPublication&nn=16102)
-* [Documentation for the weather station list](https://www.dwd.de/DE/leistungen/klimadatendeutschland/stationsliste.html)
-* [Documentation of forecast data format](https://opendata.dwd.de/weather/lib/MetElementDefinition.xml)
 # Weather-Datamodel-Databrick
 
 Architecht of the work will add to this model with the aim to create the Regression-Model forcasting weather impact: 
 
 ![New Version Architech drawio](https://user-images.githubusercontent.com/50198601/217501437-4b29ca23-8c20-4f0c-a4ed-deedb27ffaf6.png)
 
-It will be intergrate with others 3 source of weather's data . 
+It will be intergrate with others 3 source of weather's data mainly focus with Database DWD from Germany. 
+
+## References
+
+* The [DWD Open Data](https://www.dwd.de/EN/ourservices/opendata/opendata.html) project.
+* [A list of all weather stations supported by DWD](https://www.dwd.de/DE/leistungen/klimadatendeutschland/statliste/statlex_html.html?view=nasPublication&nn=16102)
+* [Documentation for the weather station list](https://www.dwd.de/DE/leistungen/klimadatendeutschland/stationsliste.html)
+* [Documentation of forecast data format](https://opendata.dwd.de/weather/lib/MetElementDefinition.xml)
 
