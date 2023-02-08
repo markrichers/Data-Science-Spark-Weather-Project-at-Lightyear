@@ -98,3 +98,10 @@ Downloaded data is automatically cached to prevent unnecessary load on the DWD s
 * [Documentation for the weather station list](https://www.dwd.de/DE/leistungen/klimadatendeutschland/stationsliste.html)
 * [Documentation of forecast data format](https://opendata.dwd.de/weather/lib/MetElementDefinition.xml)
 # Weather-Datamodel-Databrick
+
+Architecht of the work will add to this model with the aim to create the Regression-Model forcasting weather impact: 
+
+![New Version Architech drawio](https://user-images.githubusercontent.com/50198601/217501437-4b29ca23-8c20-4f0c-a4ed-deedb27ffaf6.png)
+
+It will be intergrate with others 3 source of weather's data . 
+
